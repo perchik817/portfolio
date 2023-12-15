@@ -1,0 +1,17 @@
+.popup__content_type_game-rules {
+  width: 615px;
+  min-height: 330px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+@media screen and (max-width: 735px) {
+  .popup__content_type_game-rules {
+    max-width: 515px;
+    width: 100%;
+    margin-right: 35px;
+    margin-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

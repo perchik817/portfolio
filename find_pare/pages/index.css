@@ -1,0 +1,55 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/html/html.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/move-screen-up/move-screen-up.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/link/link.css);
+
+@import url(../blocks/start-screen/start-screen.css);
+@import url(../blocks/start-screen/__title/start-screen__title.css);
+@import url(../blocks/start-screen/__button/start-screen__button.css);
+
+@import url(../blocks/time-screen/time-screen.css);
+@import url(../blocks/time-screen/__button/time-screen__button.css);
+@import url(../blocks/time-screen/__wrapper/time-screen__wrapper.css);
+
+@import url(../blocks/game-screen/game-screen.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__span-text/header__span-text.css);
+@import url(../blocks/header/__wrapper/header__wrapper.css);
+
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card-front/card-front.css);
+@import url(../blocks/card-back/card-back.css);
+@import url(../blocks/card-front-animation/card-front-animation.css);
+@import url(../blocks/card-back-animation/card-back-animation.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__link/footer__link.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__content/_type/popup__content_type_game-rules.css);
+@import url(../blocks/popup/__content/_type/popup__content_type_game-victory.css);
+@import url(../blocks/popup/__content/_type/popup__content_type_game-loose.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__title/_type/popup__title_type_game-rules.css);
+@import url(../blocks/popup/__title/_type/popup__title_type_game-victory.css);
+@import url(../blocks/popup/__title/_type/popup__title_type_game-loose.css);
+@import url(../blocks/popup/__start-button/popup__start-button.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__text/popup__text.css);
+@import url(../blocks/popup/__text/popup__text.css);

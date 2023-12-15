@@ -1,0 +1,13 @@
+.header__title {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .header__title {
+    font-size: 24px;
+  }
+}

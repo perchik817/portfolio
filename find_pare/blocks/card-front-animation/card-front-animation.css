@@ -1,0 +1,3 @@
+.card-front-animation {
+  transform: perspective(600px) rotateY(0);
+}

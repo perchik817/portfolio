@@ -1,0 +1,54 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  height: 75vh;
+  perspective: 1000px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .cards {
+    height: 65vh;
+  }
+}
+
+ @media screen and (max-width: 570px) {
+  .cards {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cards {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .cards {
+    height: 40vh;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cards {
+    height: 35vh;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .cards {
+    height: 30vh;
+  }
+}

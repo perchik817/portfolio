@@ -1,0 +1,55 @@
+#sapper_table_main {
+      border: 1px solid black;
+      background: #D5F9E1;
+      font-family: Arial;
+  }
+  div#sapper_time{
+      text-align: center;
+  }
+  #sapper_table_main td{
+      border-top:2px solid #C4C4C4;
+      border-left:2px solid #C4C4C4;
+      border-bottom:2px solid #212121;
+      border-right:2px solid #212121;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      font-weight: bold;
+      background: #9D9D9D;
+      font-size: 80%;
+      margin: 0;
+      padding: 0;
+  }
+  #sapper_table_main td img{
+      display: block;
+      margin: 0 auto;
+      height: 90%;
+      width: 90%;
+  }
+  #sapper_settings{
+      text-align: center;
+      font-family: Arial;
+  }
+  #sapper_settings input[type=text]{
+      width: 22px;
+      text-align: center;
+  }
+  
+  #sapper_wrapper{
+      position: relative;
+  }
+  
+  div.sapper_message {
+      font-family: Arial;
+      background: rgba(255,255,255,0.6);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
+  div.sapper_message p{
+      display: block;
+      margin-top: 20%;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+  }

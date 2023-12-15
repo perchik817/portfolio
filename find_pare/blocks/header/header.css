@@ -1,0 +1,10 @@
+.header {
+  max-height: 15vh;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

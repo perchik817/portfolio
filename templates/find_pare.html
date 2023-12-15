@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Найди пару</title>
+  <link rel="stylesheet" href="/find_pare/pages/index.css"/>
+</head>
+<body class="page">
+<div class="start-screen">
+  <h1 class="start-screen__title title">Игра "Найди парные картинки"</h1>
+  <button type="button" class="start-screen__button button"><a href="#time-screen" class="link">Начать игру</a></button>
+</div>
+
+<div class="time-screen" id="time-screen">
+  <h1 class="time-screen__title title">Выберите длительность игры</h1>
+  <div class="time-screen__wrapper">
+    <button type="button" class="time-screen__button button" data-time="30" id="time-screen__button_30s">
+      <a href="#game-screen" class="link time-screen__link" >30 сек</a>
+    </button>
+    <button type="button" class="time-screen__button button" data-time="45" id="time-screen__button_45s">
+      <a href="#game-screen" class="link time-screen__link">45 сек</a>
+    </button>
+    <button type="button" class="time-screen__button button" data-time="60" id="time-screen__button_60s">
+      <a href="#game-screen" class="link time-screen__link">1 мин</a>
+    </button>
+  </div>
+</div>
+
+<div class="game-screen" id="game-screen">
+  <header class="header">
+    <h2 class="header__title">Игра "Найди парные картинки"</h2>
+    <div class="header__wrapper">
+      <p class="header__text">Вы отгадали
+        <span class="header__span-text" id="counter-of-disabled-cards">0</span>
+        из
+        <span class="header__span-text" id="total-number-of-cards"></span>
+        карточек</p>
+      <p class="header__text">Таймер <span class="header__span-text" id="timer">00:00</span></p>
+    </div>
+  </header>
+  <main class="cards">
+    <template class="template">
+      <div class="card">
+        <div class="card-back">
+        </div>
+        <div class="card-front">
+        </div>
+      </div>
+    </template>
+  </main>
+  <footer class="footer">
+    <ul class="footer__links">
+      <li class="footer__link footer__link_type_game-rules">Правила игры</li>
+      <li class="footer__link footer__link_type_new-game"><a class="link" href="#time-screen">Начать заново</a></li>
+    </ul>
+    <p class="footer__text">© 2022 Kraynova Marina</p>
+  </footer>
+</div>
+
+
+<div class="popup popup_type_game-victory">
+  <div class="popup__content popup__content_type_game-victory">
+    <button
+      type="button"
+      class="popup__close-button"
+    ></button>
+    <h1 class="popup__title popup__title_type_game-victory">Поздравляем! Вы победили!</h1>
+    <button type="button" class="popup__start-button button"><a class="link" href="#time-screen">Начать заново</a></button>
+  </div>
+</div>
+
+<div class="popup popup_type_game-rules">
+  <div class="popup__content popup__content_type_game-rules">
+    <button
+      type="button"
+      class="popup__close-button"
+    ></button>
+    <h1 class="popup__title popup__title_type_game-rules">Правила игры</h1>
+    <p class="popup__text">В начале игры карточки раскладываются на экране случайным образом рубашкой вверх.</p>
+    <p class="popup__text">Игрок открывает любые две карточки. Если цвет на них совпадает, то они остаются открытыми,
+      и игрок открывает следующие две карточки. Если карточки не совпадают по цвету,
+      то обе карточки переворачиваются обратно, и игрок заново начинает ход.
+      Ирок должен открыть все карточки до того, как истечет время</p>
+    <p class="popup__text">Игра заканчивается, когда все карты на столе открыты, или если истекло время.</p>
+  </div>
+</div>
+
+<div class="popup popup_type_game-loose">
+  <div class="popup__content popup__content_type_game-loose">
+    <button
+      type="button"
+      class="popup__close-button"
+    ></button>
+    <h1 class="popup__title popup__title_type_game-loose">К сожалению, вы проиграли...</h1>
+    <button type="button" class="popup__start-button button"><a class="link" href="#time-screen">Начать заново</a></button>
+  </div>
+</div>
+
+<script type="module" src="/find_pare/scripts/index.js"></script>
+</body>
+</html>
